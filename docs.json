@@ -1,0 +1,67 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "User Story Lib",
+  "colors": {
+    "primary": "#0E7490"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Billing-Domain",
+        "pages": [
+          "Billing-Domain/GRC_Billing_user_story_20260106",
+          "Billing-Domain/GRC_Billing_user_story_20251230"
+        ]
+      },
+      {
+        "group": "CEM-Domain",
+        "pages": [
+          "CEM-Domain/GRC_CEM_user_story_20260105"
+        ]
+      },
+      {
+        "group": "Claim-Domain",
+        "pages": [
+          {
+            "group": "BA-claim-user-story",
+            "expanded": true,
+            "pages": [
+              "Claim-Domain/BA-claim-user-story/claim_user_story_20251219",
+              "Claim-Domain/BA-claim-user-story/claim_user_story_20251216"
+            ]
+          },
+          {
+            "group": "claim-user-story",
+            "expanded": true,
+            "pages": [
+              "Claim-Domain/claim-user-story/GRC_Claim_user_story_20251230",
+              "Claim-Domain/claim-user-story/GRC_Claim_user_story_20251223",
+              "Claim-Domain/claim-user-story/GRC_Claim_user_story_20251222"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Policy-Domain",
+        "pages": [
+          "Policy-Domain/GRC_Policy_user_story_20260106",
+          "Policy-Domain/GRC_Policy_user_story_20251230"
+        ]
+      },
+      {
+        "group": "SI-Domain",
+        "pages": [
+          "SI-Domain/GRC_SI_user_story_20260114",
+          "SI-Domain/GRC_SI_user_story_20260113"
+        ]
+      }
+    ]
+  }
+}
